@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Sample.Sample" android:versionCode="1" android:versionName="2.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+	<application android:label="Sample" android:icon="@drawable/Icon">
+		<meta-data android:value="53c62bbd56240bbf0a06991f" android:name="UMENG_APPKEY"></meta-data>
+		<meta-data android:value="GuanFang" android:name="UMENG_CHANNEL" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+</manifest>

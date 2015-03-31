@@ -1,0 +1,18 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='u.aly']/class[@name='K']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='aR']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='aS']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='aY']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='I']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='X']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='Z']" name="obfuscated">true</attr>
+  <attr path="/api/package[@name='u.aly']/class[@name='U']" name="obfuscated">true</attr>
+  <!--<attr path="/api/package[@name='u.aly']" name="obfuscated">true</attr>-->
+</metadata>
